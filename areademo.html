@@ -8,7 +8,7 @@
         
         <script>
             //find the common rectangle area
-            
+
             function area(a,b,c,d){
                 A=parseInt(a);
                 B=parseInt(b);
@@ -16,6 +16,8 @@
                 D=parseInt(d);
                 x=Math.min(A,C);
                 y=Math.min(B,D);
+                //With x and y you will get common rectangle area
+                
                 Area=(A*B)+(C*D)-(x*y);
                 document.write(Area);
 
