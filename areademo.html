@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Area</title>
+    </head>
+    <body>
+        <script>
+            function area(a,b,c,d){
+                A=parseInt(a);
+                B=parseInt(b);
+                C=parseInt(c);
+                D=parseInt(d);
+                x=Math.min(A,C);
+                y=Math.min(B,D);
+                Area=(A*B)+(C*D)-(x*y);
+                document.write(Area);
+
+            }
+            area('13','2','5','8')
+        </script>
+
+    </body>
+</html>
